@@ -1,0 +1,58 @@
+body {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  width: 15rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0.1rem;
+}
+
+.title {
+  font-family: "Merriweather",serif;
+  font-weight: 1200;
+  letter-spacing: -1px;
+}
+
+a {
+  cursor: pointer;
+}
+
+input {
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+}
+
+input, input:focus {
+  border: none;
+  border-bottom: solid 1px gray;
+}
+
+.sign-button {
+  width: 80%;
+  background-color: #6aaa64;
+  padding: 0.7rem;
+  border-radius: 0.25rem;
+  border: none;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#sign {
+  width: 80%;
+}
+
+#sign-out-button {
+  background-color: rgb(181, 59, 59);
+}
